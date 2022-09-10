@@ -1,0 +1,45 @@
+p{
+    margin: 10px 0 !important;
+}
+body{
+    padding: 20px;
+    background-color: #EEEEEE;
+    color: #222831;
+    font-size: 1.1rem;
+}
+
+h2{
+    text-align: center;
+    color: #222831;
+    font-family: "Montserrat";
+    font-weight: 800;
+    padding-bottom: 1.5rem;
+}
+
+.login-div{
+    text-align: center;
+}
+
+
+.inline{
+    display: inline;
+}
+
+.list-icon{
+    float: right;
+    margin-left : 15px;
+}
+
+.task-list-item{
+    background-color: #00ADB5;
+}
+
+button{
+    all: unset;
+}
+
+/* Completed task class */
+.finished{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
