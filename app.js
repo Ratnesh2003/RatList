@@ -125,7 +125,13 @@ const Task = new mongoose.model("Task", taskSchema);
 
 
 app.get("/login", function (req, res) {
-    res.render("login");
+
+    if(req.isAuthenticated()){
+        res.redirect("/");
+    } else {
+        res.render("login");
+    }
+    
 })
 
 app.get("/auth/google",
